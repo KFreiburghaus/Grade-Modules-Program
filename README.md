@@ -12,4 +12,4 @@ Program where you can write your **school-grade** in **several modules**. You ca
 #### FOLLOWING STEPS
 ###### - add modules (M)
 ###### - add grades to the modules (N)
-###### - create a file (F)- create a file (F)
+###### - create a file (F)
