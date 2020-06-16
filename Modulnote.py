@@ -2,7 +2,7 @@ import sqlite3
 import os.path
 
 #Datenbank mit den Tabellen erstellen wenn noch nicht vorhaden
-def createDatabaseAndClass():
+def createDatabaseAndTable():
     if not os.path.exists('noten.db'):
         #Wenn Datenbank "noten.db" nicht vorhanden ist erstellen und Tabelle Note und Modul hinzufügen
         connection=sqlite3.connect('noten.db')
@@ -33,7 +33,7 @@ def createDatabaseAndClass():
         }
 
 #Datenbank und Klassen erstellen wenn noch nicht vorhanden
-createDatabaseAndClass()
+createDatabaseAndTable()
 
 #Projekt-Loop bis 'Q' gedrückt wird
 while True:
